@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Defines a custom class we can call with media queries */
+@layer utilities{ 
+    .section-min-height{
+        min-height: calc(100vh - 76px);
+    }
+}
